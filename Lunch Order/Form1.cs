@@ -35,7 +35,7 @@ namespace Lunch_Order
 
                 double Subtotal = btnHamburger + AddOn;
                 double Tax = 5.00 / 100;
-                double OrderTotal = (Subtotal*Tax) + Subtotal;
+                double OrderTotal = (Subtotal * Tax) + Subtotal;
 
                 txtSubtotal.Text = (Subtotal).ToString("c");
                 txtTax.Text = (Tax*Subtotal).ToString("c");
